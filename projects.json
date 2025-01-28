@@ -9,7 +9,7 @@
             "hyperlink": "https://www.biorxiv.org/content/10.1101/2024.10.31.621339v1"
         },
         {
-            "shortname": "lucida_gui",
+            "shortname": "lucida",
             "title": "Lucida GUI",
             "category": "science",
             "short_description": "An interactive GUI for data exploration on top of the CellTable platform.",

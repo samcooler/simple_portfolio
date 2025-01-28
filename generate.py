@@ -98,7 +98,7 @@ def generate_html(json_file, output_file):
             gap: 10px;
         }
         .project-images img {
-            height: 150px;
+            height: 250px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             cursor: pointer;
@@ -164,6 +164,11 @@ def generate_html(json_file, output_file):
             <div class=\"project-category\">{project['category']}</div>
             <p><strong>{project['short_description']}</strong></p>
             <p class=\"project-description\">{project['long_description']}</p>
+            """
+        if project['hyperlink']:
+            html += f"<p><a href=\"{project['hyperlink']}\" target=\"_blank\">Link</a></p>"
+
+        html += """
             <div class=\"project-images\">
         """
         # Add images
