@@ -22,7 +22,7 @@
             "category": "science",
             "short_description": "Shallow convolutional neural networks for modeling retinal ganglion cell responses.",
             "long_description": "Developed and trained shallow convolutional neural networks to model retinal ganglion cells responses to natural scene movies and white noise in the human and macaque monkey. Explored hyperparameter space and created models with 20-30 percent improvement over the best linear-nonlinear models. Followed the path started by the DeepRetina project in the Baccus Lab at Stanford.",
-            "hyperlink": null
+            "hyperlink": "https://www.biorxiv.org/content/10.1101/2024.03.22.586353v1"
         },
         {
             "shortname": "light_curve",
@@ -65,6 +65,22 @@
             "hyperlink": null
         },
         {
+            "shortname": "full_duplex",
+            "title": "Full Duplex Wireless Communication",
+            "category": "engineering",
+            "short_description": "Developed a full-duplex wireless communication system for wireless transmission.",
+            "long_description": "Developed a full-duplex wireless communication system for wireless transmission. This system uses a single antenna for both transmission and reception, enabling simultaneous transmission and reception on the same frequency. This system is based on a novel RF circulator design that enables full-duplex communication with a single antenna. This system has been demonstrated to achieve full-duplex communication with a single antenna, enabling simultaneous transmission and reception on the same frequency.",
+            "hyperlink": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=021b75406a5d995e08dcab21fd3d742e223b805d"
+        },
+        {
+            "shortname": "log_analysis",
+            "title": "Modem Log Analysis",
+            "category": "engineering",
+            "short_description": "Developed a system for analyzing modem logs",
+            "long_description": "At Qualcomm, Inc, developed a software platform in Python for analyzing wireless modem logs to identify and diagnose problems.",
+            "hyperlink": null
+        },
+        {
             "shortname": "chandelier",
             "title": "Chandelier",
             "category": "art",
@@ -81,11 +97,11 @@
             "hyperlink": null
         },
         {
-            "shortname": "flaming_lotus",
+            "shortname": "flaming_lotus_girls",
             "title": "Large-scale Installations with the Flaming Lotus Girls",
             "category": "art",
             "short_description": "Collaborated on large flame and LED art installations with the Flaming Lotus Girls.",
-            "long_description": "Lead and worked with teams to create very large installation pieces featuring world-class interactive flame effects and sculptural elements. Focused on the electronics aspects, developing network LED displays and flame effect control systems.",
+            "long_description": "Led and worked with teams to create very large installation pieces featuring world-class interactive flame effects and sculptural elements. Focused on the electronics aspects, developing network LED displays and flame effect control systems.",
             "hyperlink": null
         },
         {

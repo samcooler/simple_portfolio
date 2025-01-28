@@ -24,6 +24,7 @@ def resize_and_convert_images(original_dir, target_dir):
 
         for i, file in enumerate(files):
             if file.lower().endswith(('.heic', '.jpg', '.jpeg', '.png', '.gif')):
+                print(f'Processing {os.path.join(subdir, file)}')
                 source_path = os.path.join(subdir, file)
                 target_file_name = f"{os.path.basename(relative_path)}_{i + 1}.jpg"
                 target_path = os.path.join(target_subdir, target_file_name)
@@ -48,7 +49,7 @@ def generate_html(json_file, output_file):
 <head>
     <meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <title>Portfolio</title>
+    <title>Sam Cooler Projects</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -145,7 +146,7 @@ def generate_html(json_file, output_file):
     </div>
     <div class=\"container\">
         <div class=\"header\">
-            <a href=\"http://samcooler.com\">Sam Cooler</a>
+            <a href=\"http://samcooler.com\">Sam Cooler Projects</a>
         </div>
 """
 
@@ -188,4 +189,4 @@ def generate_html(json_file, output_file):
 resize_and_convert_images('images_original', 'images')
 
 # Generate HTML
-generate_html('projects.json', 'portfolio.html')
+generate_html('projects.json', 'projects.html')
